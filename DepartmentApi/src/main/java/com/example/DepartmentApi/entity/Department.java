@@ -11,6 +11,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.TemporalType;
 import jakarta.validation.constraints.NotBlank;
+import lombok.Builder;
 import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
@@ -18,6 +19,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
+@Builder
 public class Department {
 
 	@Id
